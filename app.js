@@ -15,7 +15,8 @@ btn1.addEventListener("click",function(){
 }
 })
 btn2.addEventListener("click",function(){
-    num.textContent=0;
+    count=0;
+    num.textContent=count;
     num.style.color="#fff";
 })
 
